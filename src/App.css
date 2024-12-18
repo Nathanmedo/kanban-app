@@ -1,0 +1,15 @@
+.header-grid{
+    display: grid;
+    grid-template-columns:2fr .1fr;
+    grid-row: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: 'Poppins', 'sans-serif';
+    justify-content: start;
+    align-items: center; /*note align-items for grid, while align-content for flex*/
+
+}
+.card-header-grid{
+    display: grid;
+    grid-template-columns: 2fr .1fr;
+}
